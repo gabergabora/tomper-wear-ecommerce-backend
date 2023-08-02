@@ -4,7 +4,7 @@ const orderSchema = mongoose.Schema({
   shippingInfo: {
     address: {
       type: String,
-      required: true,
+      required: true,        
     },
     city: {
       type: String,
